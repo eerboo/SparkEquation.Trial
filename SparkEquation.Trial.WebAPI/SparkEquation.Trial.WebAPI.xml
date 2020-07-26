@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SparkEquation.Trial.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:SparkEquation.Trial.WebAPI.Controllers.ProductController.Get">
+            <summary>
+            Get all products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SparkEquation.Trial.WebAPI.Controllers.ProductController.Add(SparkEquation.Trial.WebAPI.Model.Request.AddProductRequest)">
+            <summary>
+            Add new product
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SparkEquation.Trial.WebAPI.Controllers.ProductController.Update(SparkEquation.Trial.WebAPI.Model.Request.UpdateProductRequest)">
+            <summary>
+            Update product
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SparkEquation.Trial.WebAPI.Controllers.ProductController.Remove(System.Int32)">
+            <summary>
+            Delete product by product Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

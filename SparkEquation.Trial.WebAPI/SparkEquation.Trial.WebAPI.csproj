@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <DocumentationFile>D:\Work\Backend Engineer (C#)_E.Arkalykov\Backend Engineer (C#)\trial.csharp\SparkEquation.Trial.WebAPI\SparkEquation.Trial.WebAPI.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="10.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.HttpsPolicy" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.5.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.5.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SparkEquation.Trial.WebAPI.Data\SparkEquation.Trial.WebAPI.Data.csproj" />
+    </ItemGroup>
+
+</Project>
